@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Activities & Portfolio</title>
+  <style>
+    /* Global Styles & Reset */
+    body {
+      background-color: #f4f7f6; /* Light gray background for a modern feel */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, modern sans-serif font */
+      color: #333; /* Darker text for better readability */
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    /* Container for the main page content */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ddd;
+    }
+
+    h1, h2 {
+      color: #007BFF; /* A vibrant blue accent color */
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 10px;
+      margin-top: 30px;
+    }
+
+    /* Layout for images and corresponding labels */
+    .media-grid {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      margin-bottom: 10px;
+      flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    }
+
+    .media-item {
+      text-align: center;
+      width: 120px; /* Standardize item width */
+    }
+    
+    .media-item img, .media-item video {
+      width: 100%;
+      height: 120px;
+      object-fit: cover; /* Ensures images/videos fill their space nicely */
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .media-item img:hover, .media-item video:hover {
+        transform: scale(1.05);
+    }
+
+    .media-item span {
+      display: block;
+      margin-top: 8px;
+      font-size: 0.9em;
+      color: #555;
+      font-weight: bold;
+    }
+
+    /* Styling for external links section */
+    .outputs a {
+      display: block;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      background-color: #e9ecef;
+      color: #007BFF;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .outputs a:hover {
+      background-color: #007BFF;
+      color: white;
+    }
+
+    /* Form Styling */
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box; /* Ensures padding doesn't affect width */
+      font-family: inherit; /* Use body font for inputs */
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #28a745; /* A success green color */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+
+    /* Color Picker Section Styling */
+    .color-picker-section {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #e0f2f7;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>My Activities & Portfolio</h1>
+  <p>Hi I'm Jeffrey D. Coriento a 2nd year student taking Bachelor of science in information technology studying at Central Philippines State University Moises Padilla Campus</p>
+
+  <h2>Photos</h2>
+  <!-- Combined the image and text containers into a single grid structure -->
+  <div class="media-grid">
+    <div class="media-item">
+      <img src="jef1.jpg" alt="Group Photo 1">
+      <span>Cool</span>
+    </div>
+    <div class="media-item">
+      <img src="jef2.jpg" alt="Group Photo 2">
+      <span>Gwapo</span>
+    </div>
+    <div class="media-item">
+      <img src="jef3.jpg" alt="Group Photo 3">
+      <span>Chill</span>
+    </div>
+  </div>
+
+  <h2>My Videos</h2>
+  <div class="media-grid">
+    <div class="media-item">
+      <video src="trip1.mp4" controls>Your browser does not support the video tag.</video>
+      <span>4fun1</span>
+    </div>
+    <div class="media-item">
+      <video src="trip2.mp4" controls>Your browser does not support the video tag.</video>
+      <span>4fun2</span>
+    </div>
+    <div class="media-item">
+      <video src="trip3.mp4" controls>Your browser does not support the video tag.</video>
+      <span>4fun3</span>
+    </div>
+  </div>
+
+  <h2>My Outputs</h2>
+  <div class="outputs">
+    <a href="https://www.canva.com/design/DAGxRuEoYzA/Tuex-nEiMgHtiYslSTrlQg/edit?utm_content=DAGxRuEoYzA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Canva Design Project</a>
+    <a href="https://www.figma.com/proto/6oIjTILHEVNEFViqMK72vo/Untitled?node-id=1-5174&p=f&t=bSS35ttZYjz8Eydn-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A5174" target="_blank">Figma Portfolio Prototype</a>
+    <a href="https://www.figma.com/proto/8LYpT7lpyzgnCXgq0OeDAt/Untitled?node-id=1-2&p=f&t=MIt9fZ3rMBn200o0-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank">Figma E-commerce Prototype</a>
+  </div>
+
+  <h2>Contact Me</h2>
+  <!-- Form structure improved with <form> tag, though action is client-side only -->
+  <form>
+    <label for="firstname">First Name:</label>
+    <textarea id="firstname" name="firstname" rows="1"></textarea>
+
+    <label for="lastname">Last Name:</label>
+    <textarea id="lastname" name="lastname" rows="1"></textarea>
+
+    <label for="email">Email:</label>
+    <textarea id="email" name="email" rows="1"></textarea>
+
+    <label for="comments">Message:</label>
+    <textarea id="comments" name="comments" rows="5" placeholder="Enter your message here..."></textarea>
+    
+    <!-- Changed button type to 'button' since there is no backend to submit to -->
+    <button type="button" onclick="alert('Message submitted (simulated)!')">Submit</button>
+  </form>
+
+</div> <!-- End of Main Container -->
+
+<!-- Color Picker functionality moved outside the main content flow -->
+<div class="color-picker-section">
+  <h1>Choose Page Background Color</h1>
+  <input type="color" id="bgColorPicker" class="color-picker">
+  <p>Your choice is saved in your browser's local storage.</p>
+</div>
+
+<!-- Combined all JavaScript into one script block -->
+<script>
+  const colorPicker = document.getElementById('bgColorPicker');
+
+  // Load saved color on page load
+  window.addEventListener('DOMContentLoaded', () => {
+    const savedColor = localStorage.getItem('backgroundColor');
+    if (savedColor) {
+      // Apply the saved color to the *body* element
+      document.body.style.backgroundColor = savedColor;
+      colorPicker.value = savedColor;
+    }
+  });
+
+  // Save and apply new color
+  colorPicker.addEventListener('input', () => {
+    const selectedColor = colorPicker.value;
+    document.body.style.backgroundColor = selectedColor;
+    localStorage.setItem('backgroundColor', selectedColor);
+  });
+</script>
+
+</body>
+</html>
